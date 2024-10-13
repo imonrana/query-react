@@ -1,0 +1,308 @@
+/* common css start */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul,li{
+  list-style: none;
+}
+
+a{
+  text-decoration: none;
+  display: inline-block;
+}
+.container{
+  width: 1320px;
+  margin: 0 auto;
+}
+
+.sub_title{
+ font-family: "open sans", sans-serif;
+ font-size: 18px;
+ font-weight: 700;
+ color: #FFC178;
+ letter-spacing: 7px;
+ text-transform: capitalize;
+}
+body{
+  background-color: #000000;
+}
+
+.title{
+  font-family: "open sans", sans-serif;
+  font-size: 64px;
+  font-weight: 700;
+  color: #FFFFFF;
+  text-transform: uppercase;
+}
+
+.title span{
+  display: block;
+}
+
+.pera{
+  font-family: "open sans", sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  color: #FFFFFF;
+  line-height: 32px;
+
+}
+
+button{
+  background-color: transparent;
+  border: none;
+}
+
+button a{
+  font-family: "open sans", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  color: #FFC178;
+  text-transform: uppercase;
+
+}
+
+/* common css end */
+
+/* navbar css start */
+#navbar{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding-top: 28px;
+}
+
+#navbar nav{
+  display: flex;
+  align-items: center;
+   
+}
+#navbar nav .logo{
+  width: 20%;
+}
+#navbar nav .nav_items{
+  width: 80%;
+}
+#navbar nav .nav_items ul{
+  display: flex;
+  justify-content: flex-end;
+}
+
+#navbar nav .nav_items ul li a{
+  margin-left: 60px;
+  font-family: "Open Sans", sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  color: #FFFFFF;
+  transition: .4s;
+
+}
+#navbar nav .nav_items ul li a:hover{
+  color: #000000;
+}
+
+/* navbar css end */
+
+
+/* banner css start */
+#banner{
+  background: url(./assets/banner.jpg) no-repeat center;
+  background-position: center;
+  padding: 462px 0;
+
+}
+
+#banner .banner_text h1{
+  font-family: "open sans", sans-serif;
+  font-size: 96px;
+  font-weight: 700;
+  color: #FFFFFF;
+  line-height: 100px;
+}
+
+#banner .banner_text h1 span{
+  font-size: 88px;
+  font-weight: 400;
+  display: block;
+}
+/* banner css end */
+
+/*holiday css start */
+#holiday{
+  margin-top: 286px;
+}
+#holiday .holiday_warpper{
+  display: flex;
+  justify-content: space-between;
+}
+#holiday .holiday_warpper .holi_img img{
+  width: 582px;
+  height: 713px;
+}
+
+#holiday .holiday_warpper .holiday_details{
+  margin-top: 45px;
+}
+
+#holiday .holiday_warpper .holiday_details .sub_title{
+  letter-spacing: 6px;
+}
+#holiday .holiday_warpper .holiday_details .pera{
+padding-bottom: 66px;
+width: 497px;
+}
+/* holiday css end */
+
+
+/* together css start */
+#together{
+  margin-top: 295px;
+}
+#together .bg_img{
+  background: url(./assets/Together_img.jpg) no-repeat;
+  background-position: center;
+  padding: 559px 0 32px 0;
+}
+
+#together .together_details{
+  text-align: center;
+}
+
+#together .together_details .sub_title{
+  letter-spacing: 6px;
+}
+
+#together .together_details .pera{
+  font-size: 15px;
+  width: 784px;
+  margin: 0 auto;
+  padding-bottom: 26px;
+}
+
+/* together css end */
+
+/* culture css start*/
+#culture{
+  margin:295px 0 199px ;
+}
+
+#culture .culture_warpper{
+  display: flex;
+  justify-content: space-between;
+}
+
+#culture .culture_info{
+  padding-top: 153px;
+}
+
+#culture .culture_info .sub_title{
+  letter-spacing: 6px;
+}
+
+#culture .culture_info .title{
+  width: 663px;
+}
+
+#culture .culture_info .pera{
+  width: 450px;
+  padding: 19px 0px 47px;
+  text-transform: capitalize;
+}
+/* culture css end */
+
+/* footer css start */
+footer{
+  padding-bottom: 32px;
+}
+footer .item_top{
+  display: flex;
+  justify-content: space-between;
+}
+
+
+footer .item_top .item_top_right p{
+  font-family: "open sans", sans-serif;
+  font-size: 22px;
+  font-weight: 400;
+  color: #FFFFFF;
+  letter-spacing: -0.3;
+  display: inline-block;
+  opacity: 0.5;
+}
+
+footer .item_top .item_top_right button{
+  padding: 18px 67px;
+  background-color: #FFA343;
+  border-radius: 10px;
+}
+
+footer .item_top .item_top_right button a{
+  font-family: "open sans", sans-serif;
+  font-size: 17px;
+  font-weight: 700px;
+  color: #000000;
+}
+
+footer .item_middle{
+  display: flex;
+  column-gap: 275px;
+  padding: 81px 0 153px;
+}
+
+footer .item_middle .footer_title h3{
+  font-family: "open sans", sans-serif;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 49px;
+  color: #FFFFFF;
+  width: 405px;
+}   
+
+footer .item_middle .footer_title .trams a{
+  font-family: "open sans", sans-serif;
+  font-size: 15px;
+  color: #FFFFFF;
+  margin: 36px 0 48px;
+  opacity: 0.50;
+}
+
+footer .item_middle .footer_title .social_icon .icon{
+  color: #FFFFFF;
+  font-size: 16px;
+  padding-right: 29px;
+}
+
+footer .footer_list{
+  display: flex;
+  justify-content: space-around;
+  column-gap: 85px;
+}
+
+footer .footer_list h6{
+  font-family: "open sans", sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  color: #FFD1A0;
+  margin-bottom: 30px;
+}
+
+footer .footer_list ul li a{
+  font-family: "open sans", sans-serif;
+  font-size: 19px;
+  color: #FFFFFF;
+  margin-bottom: 24px;
+}
+
+footer .item_bottom p{
+  text-align: center;
+  font-size: 18px;
+  font-family: "open sans", sans-serif;
+  font-weight: 600;
+  color: #FFFFFF;
+  opacity: 0.5;
+}
+/* footer css end */
