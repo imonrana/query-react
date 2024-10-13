@@ -3,9 +3,9 @@ import React from 'react'
 const Banner = () => {
   return (
     <section id="banner">
-    <div class="container">
-        <div class="banner_text">
-            <h6 class="sub_title">
+    <div className="container">
+        <div className="banner_text">
+            <h6 className="sub_title">
                 explore the Nature Beauty
             </h6>
             <h1>
